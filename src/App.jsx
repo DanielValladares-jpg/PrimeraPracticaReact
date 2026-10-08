@@ -15,7 +15,7 @@ function App() {
 
 
     <div id='DivImagen'>
-      <img src="LulaCongreso.jpg" alt="xddd"  className='ImagenCongreso'/>
+      <img src="LulaCongreso.jpg" alt="Foto de Lula en el congreso"  className='ImagenCongreso'/>
       <br />
       El presidente de Brasil, Luiz Inácio Lula da Silva decretó la prohibición 
       de las apuestas deportivas y los casinos en línea días antes de las elecciones. Foto: EFE
@@ -34,7 +34,7 @@ function App() {
     publicitarios relacionados con el sector.
     <br />
     <br />
-    <div id='fotos'><img src="FotoLula.jpg" alt="ptm" />  </div>
+  
     "Acceso bloqueado. La plataforma a la que usted intentó entrar está fuera de servicio por determinación de la Medida Provisoria N° 1.394/26, 
     que prohíbe las apuestas deportivas y los casinos digitales en Brasil desde el 25 de septiembre de 2026", se exhibe en letras grandes.
     <br />
@@ -95,15 +95,53 @@ function App() {
     <br /><br />
     Ese mismo año, el Estado recaudó cerca de 9.000 millones de reales (1.800 millones de dólares) 
     en impuestos de esta actividad.
+    <br /><br />
   </p>
 
 
    </div>
+
+
    <div id='SecondRow'>
-    <p>dalksd</p>
+
+  <div id='Bio'>
+  <img src="FotoLula.jpg" alt="Retrato de Lula" id='FotoLula'/>
+   <p>Luiz Inácio Lula da Silva</p>
+
+  </div>   
+  <p>Conocido en todo el mundo simplemente como Lula, Luis Inácio Lula da Silva nació en 1945 de padres
+     analfabetos que emigraron a la industrializada São Paulo. Aprendió a leer a los diez años, dejó la 
+     escuela a los catorce, se convirtió en un hábil metalúrgico, ascendió a la dirección sindical, 
+     contribuyó a poner fin a una dictadura militar y, en 2003, se convirtió en el trigésimo quinto 
+     presidente de Brasil. Durante su mandato, Lula lideró a su país a través de reformas que sacaron 
+     a decenas de millones de personas de la pobreza. En esta obra, John D. French, uno de los historiadores 
+     más destacados de Brasil, ofrece la primera biografía crítica del líder a quien incluso sus oponentes 
+     políticos consideran sorprendentemente carismático, ingenioso y entrañable.
+    <br /><br />
+
+    Entrelazando una historia íntima y colorida de la vida de Lula —su amor por el hogar, el fútbol, 
+    ​​la fábrica y el sindicato— con un análisis de las fuerzas a gran escala, French argumenta que 
+    Lula estaba excepcionalmente capacitado para influir en las estructuras autoritarias del poder 
+    en esta nación en desarrollo. Su astuta capacidad para dialogar con la gente, no para imponerles 
+    su mensaje, y para crear un significado político compartido fue fundamental para sus triunfos políticos. 
+    Tras dejar el cargo, sus oponentes lo condenaron y encarcelaron por lavado de dinero y corrupción; 
+    pero su inmenso ejército de votantes celebró su reciente liberación, insistiendo en que es víctima 
+    de una emboscada política de la derecha. La historia de Lula aún no ha terminado.</p>
+
+  </div>
+   
    </div>
+
+   <div id='Footer'>
+
+
+    <div id='Link'> 
+    <p>Fuentes de la investigacion: <a href="https://www.clarin.com/mundo/plataformas-apuestas-linea-dejan-funcionar-brasil_0_VbyHwktYVp.html">Clarin</a>,
+     <a href="https://history.duke.edu/books/lula-and-his-politics-cunning-metalworker-president-brazil">Duke</a></p> 
+    </div>
+
    </div>
-    </>
+</>
   )
 }
 
