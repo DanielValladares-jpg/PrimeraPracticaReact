@@ -1,4 +1,4 @@
-  .counter {
+  /* .counter {
     font-size: 16px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -183,23 +183,58 @@
     }
 
   }
+ */
 
-
-#DivPadre{
-  color: black;
-  background-color: white;
+#DivTitulo{
+  background-color: rgb(255, 255, 255);
   margin-bottom: 20px;
   margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
 }  
 
 #DivParrafos{
-  text-align: center;
-  background-color: beige;
-  width: 80%;
+  text-align: justify;
+  color: black;
+  width: 45%;
+  padding-left: 10%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
 }
 
 #ParrafoSubTitulo{
   font-weight: bold;
   color: black;
+
+}
+
+#fotos{
+  display: flex;
+  height: 500px;
+  width: 500px;
+}
+
+.ConteinerPrincipal{
+display: flex;
+background-color: white;
+}
+
+#SecondRow{
+  width: 10%;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#DivImagen{
+height: auto;
+width: auto;
+color: black;
+margin-bottom: 20px;
+background-color: white;
+}
+
+.ImagenCongreso{
+height: auto;
+width: 1000px;
 
 }
