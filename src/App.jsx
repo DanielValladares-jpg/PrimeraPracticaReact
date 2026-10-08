@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-    <div id='DivTitulo'>
-    <h3>Las plataformas de apuestas en línea dejan de funcionar en Brasil</h3 >
+    <div id='DivTitulo'>  
+   <p>Lula y los casinos de apuestas en brazil</p>
     </div>
 
 
